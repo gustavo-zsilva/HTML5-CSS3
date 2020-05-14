@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Test</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">
+
+    
+
+    <div id="content">
+        <header>
+            <h1>Teste COVID-19</h1>
+        </header>
+        <section id="input-box">
+            <form>
+                <p>Qual seu nome?
+                <input type="text" name="nome" id="nome">
+                </p>
+                <p>Qual sua idade?
+                    <input type="number" name="idade" id="idade">
+                </p>
+                <p>Qual seu gênero?
+                    <input type="radio" name="gen" id="mas">
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="gen" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>Alguma condição de saúde?
+                    <input type="checkbox" name="condSaude" id="condSaude" onclick="condicoes()">
+                    
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verify()">
+                </p>
+                <div id="res">
+                    Preencha todos os campos para ver sua resposta.
+                </div>
+            </form>
+        </section>
+        <footer>
+            &copy; gustavosilva
+        </footer>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

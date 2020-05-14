@@ -1,0 +1,94 @@
+body {
+    background: url(night-sky.jpg);
+    background-size: cover;
+    font: normal 15pt Arial;
+    
+    
+}
+#content header {
+    text-align: center;
+}
+#content {
+    background-color: white;
+    border-radius: 16px;
+    padding: 25px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308);
+    margin: auto;
+    opacity: .9;
+    
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    margin-top: 90px;
+}
+#input-box input[type="button"] {
+    padding: 15px;
+    display: flex;
+    position: relative;
+    justify-self: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308);
+    margin-left: 200px;
+    margin-top: 50px;
+    
+    
+    
+  }
+  
+#input-box input{
+    border: none;
+    border-radius: 30px;
+    background-color:rgb(121, 141, 255);
+    
+    outline: none;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+    
+
+    
+    
+}
+#input-box input[type="text"] {
+    height: 20px;
+    outline: none;
+    width: 300px;
+    text-align: center;
+    border: 2px solid rgb(25, 18, 128);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308);
+    
+}
+
+
+#input-box input[type="number"] {
+    height: 20px;
+    width: 300px;
+    border: 2px solid rgb(25, 18, 128);
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308);
+    
+}
+#input-box input[type="radio"] {
+    border: none;
+    outline: none;
+    width: 20px;
+    cursor: pointer;
+}
+#input-box input[type="checkbox"] {
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}
+#content #res {
+    margin-top: 60px;
+    text-align: center;
+}
+
