@@ -1,0 +1,101 @@
+/* Section Newsletter */
+
+section.newsletter {
+    display: flex;
+    padding: 30px;
+    background-color: #a53414;
+    justify-content: space-between;
+    /* border-top: 8px solid var(--header-color); */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.164);   
+}
+
+section.newsletter form {
+    margin-right: 8%;
+}
+
+section.newsletter h2 {
+    font-size: 30px;
+    margin: 0 8%;
+    align-self: center;
+    color: var(--background-color);
+    text-transform: capitalize;
+}
+
+section.newsletter form input {
+    width: 500px;
+    height: 40px;
+    align-self: center;
+    margin-right: 5px;
+    border: none;
+
+}
+
+section.newsletter form button {
+    width: 180px;
+    height: 42px;
+    border: none;
+    color: var(--background-color);
+    background-color: var(--header-color);
+}
+
+section.newsletter button, input {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.137);
+}
+
+/* Section Services-List Item*/
+
+section.services-list {
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.services-list .items {
+    max-width: 800px;
+}
+
+section.services-list .items .item {
+    margin-bottom: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.363);
+    background-color: rgba(128, 128, 128, 0.11);
+    padding: 30px 20px 30px;
+}
+
+/* Section Services-List Side-Block */
+
+section.services-list .side-block form{
+    max-width: 600px;
+    background-color: var(--header-color);
+    color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.158);
+}
+
+section.services-list .side-block form input {
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 8px;
+    border: none;
+}
+
+section.services-list .side-block form label {
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+section.services-list .side-block form button {
+    margin-top: 15px;
+    width: 35%;
+    justify-self: left;
+    height: 50px;
+    border: none;
+    background-color: var(--title-color);
+    color: var(--background-color);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.164);
+}
